@@ -1,0 +1,158 @@
+﻿.Degrade {
+	
+	background: url(../images/fond.png) no-repeat center; 
+    font-family: 'RobotoRegular', 'Droid Sans', 'Segoe UI', Segoe, 'San Francisco', 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
+    font-size:12px;
+	
+}
+
+
+p {
+    color: #ffffff;
+    
+}
+
+
+
+ li {
+            font-family: Arial, sans-serif;
+            font-size: 100%;
+            color: #ffffff;
+            display: list-item;
+            list-style-image: url(localiser.png);
+            margin-bottom: 10px;
+}
+
+input[type=text],input[type=password] {
+    color:#000000;
+}
+
+.titre {
+    color: #ffffff;
+    padding-bottom:20px;
+	font-family:MV Boli;
+	
+}
+
+.app {
+    position: absolute;             
+    left: 50%;
+    top: 0%;
+    height: 30px;                  
+    width: 250px;                   
+    text-align: center;
+    padding: 125px 0px 0px 0px;     
+    margin: -125px;
+}
+
+.Logo {
+	
+    background: url(../images/logo.png) no-repeat center top; 
+    background-size: contain;
+    position: absolute;             
+    left: 50%;
+	right:50%;
+    top: 25%;
+    height: 50px;                  
+    width: 200px;                   
+    text-align: center;
+    padding: 500px 0px 0px 0px;     
+    margin: -100px ;
+
+}
+
+.appbutton {
+	
+     
+    background-size: contain;
+    position: absolute;             
+    left: 50%;
+    top: 25%;
+    height: 30px;                  
+    width: 250px;                   
+    text-align: center;
+    padding: 250px 0px 0px 0px;     
+    margin: -125px ;
+
+}
+
+.choix1 {
+    font-weight:bold;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #FFFFFF;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px ;
+    text-transform: uppercase;
+    background-color: #1E90FF;
+    
+	
+}
+
+.choix2 {
+    font-weight:bold;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #FFFFFF;
+    margin:10px 15px 10px 15px ;
+    padding: 10px 20px 10px 20px ;
+    text-transform: uppercase;
+    background-color:  #0000FF ;
+    
+	
+}
+
+.localiser {
+    font-weight:bold;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background-color: #696969;
+    
+}
+
+.event {
+    font-weight:bold;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #FFFFFF;
+    margin: 27px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    background-color: #696969;
+}
+
+.ready {
+    background-color: #4B946A;
+}
+
+@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+
+@media screen and (orientation: portrait) {
+}
+
+@media screen and (orientation: landscape) {
+    .appLogo {
+    background: url(../images/logo.png) no-repeat center top; 
+    background-size: contain;
+    position: absolute;             
+    left: 50%;
+    top: 150px;
+    height: 30px;                  
+    width: 250px;                   
+    text-align: center;
+    padding: 200px 0px 0px 0px;     
+    margin: -125px;
+    }
+}

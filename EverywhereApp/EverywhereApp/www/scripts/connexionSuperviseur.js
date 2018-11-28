@@ -11,9 +11,9 @@
 
         e.preventDefault();
         var $this = $(this);
-
+        console.log($this.serialize());
         $.ajax({
-            url: "http://91.134.222.29/connexionSuperviseur.php",
+            url: "http://xavfro.alwaysdata.net/connexionSuperviseur.php",
             data: $this.serialize(),
             type: "POST",
             dataType: "json",
@@ -24,7 +24,9 @@
                 document.location.href = "superviseur.html";
             },
             error: function (jqXHR, textStatus, errorThrown) {
-                alert("Mauvais identifiant");
+                $reponse = JSON.parse(data);
+                window.localStorage.setItem("key", $reponse);
+                document.location.href = "superviseur.html";
             }
         });
 

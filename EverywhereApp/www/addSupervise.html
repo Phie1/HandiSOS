@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    
+    <title>Everywhere - Ajouter une supervision</title>
+</head>
+<body class="Degrade">
+    <script src="scripts/jquery-3.1.1.min.js"></script>
+    <script src="scripts/addSupervise.js"> </script>
+    <div class="app">
+        <h1 class="titre">Ajouter une supervision</h1>
+        <form id="formulaire">
+            <p>Pour ajouter une personne à superviser, veuillez remplir le formulaire suivant : <br /></p>
+            <p>
+                Nom :<br />
+                <input type="text" name="nom" id="nom" class="champ" />
+            </p>
+            <p>
+                Prénom :<br />
+                <input type="text" name="prenom" id="prenom" class="champ" />
+            </p>
+            <p>
+                <input type="button" id="deviceready" onclick="addSupervise()" class="choix1" value="Ajouter" />
+            </p>
+        </form>
+    </div>
+
+</body>
+</html>
